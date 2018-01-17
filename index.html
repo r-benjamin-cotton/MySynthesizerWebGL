@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | MySynthesizeTest2017.1.0b7</title>
+    <title>Unity WebGL Player | MySynthesize</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>  
@@ -13,13 +13,27 @@
     </script>
   </head>
   <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 640px; height: 480px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">MySynthesizeTest2017.1.0b7</div>
+      <div class="webgl-content">
+          <div id="gameContainer" style="width: 640px; height: 480px"></div>
+          <div class="footer">
+              <div class="webgl-logo"></div>
+              <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+              <div class="title">MySynthesizer</div>
+              <div>
+                  <p>
+                      <br />
+                      <br />
+                      <small>
+                          SF2の音色には<A href="http://schristiancollins.com/"><i>S.Christian Collins</i>さん</A>の"<strong>GeneralUser GS SoftSynth v1.44.sf2</strong>"を使わせていただいています！
+                      </small>
+                  </p>
+                  <p>
+                      <small>
+                          SS8の音が出ないのは仕様です。UnityWEBGLではAudioClipのデータを取得できませんでした。
+                      </small>
+                  </p>
+              </div>
+          </div>
       </div>
-    </div>
   </body>
 </html>
